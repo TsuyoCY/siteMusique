@@ -1,0 +1,214 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&family=Rancho&family=Roboto:wght@100;300;400;500;700;900&family=Source+Code+Pro&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+
+/*RESET CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(/src/img/tour.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.application {
+    display: flex;
+}
+
+/*NAVBAR*/
+nav {
+    width: 12%;
+    min-height: 100vh;
+    background-color: #2C262D;
+}
+
+nav img {
+    width: 60%;
+    height: 15%;
+    margin-left: 15%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+nav ul {
+    font-size: 1.2em;
+    color: #fff;
+    height: 80%;
+}
+
+nav ul li {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+
+}
+
+nav ul li:hover {
+    color: #EA4C89;
+}
+
+
+
+/*CONTENT*/
+/*SEARCHBAR*/
+.searchbar-container {
+    width: 100%;
+    height: 7vh;
+}
+
+.search {
+    width: 15%;
+    height: 3vh;
+    outline: none;
+    border-radius: 20px;
+    margin: 1% 10%;
+}
+
+/*PLAY*/
+#menu-container {
+    width: 100%;
+}
+
+#menu-play-pause {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play {
+    width: 6%;
+    height: 3vh;
+    border-radius: 10px;
+    background-color: #10E55E;
+    color: #fff;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+}
+
+.pause {
+    width: 3%;
+    height: 3vh;
+    border-radius: 10px;
+    background-color: #10E55E;
+    color: #fff;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+}
+
+.favorites {
+    width: 3%;
+    height: 3vh;
+    border-radius: 10px;
+    background-color: #10E55E;
+    color: #fff;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+}
+
+/*ALBUMS*/
+#album-container .album {
+    margin-left: 7%;
+}
+
+#album-container h1 {
+    font-size: 1em;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+#album-container h2 {
+    font-size: 5em;
+    color: #fff;
+}
+
+#album-container p {
+    color: #fff;
+}
+
+#album-container a {
+    color: #B3B4BB;
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+#album-container a:last-of-type {
+    margin-left: 1%;
+}
+
+
+
+/*POCHETTE*/
+#pochette-container {
+    margin-top: 2%;
+}
+.pochette {
+    margin-left: 7%;
+}
+
+#pochette-container .pochette h1 {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+#pochette-container .pochette h2 {
+    width: 20%;
+    font-size: 1.1em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+#pochette-container .pochette .logo-pochette {
+    width: 20%;
+    height: 35vh;
+    border-radius: 10px;
+}
+
+
+/*FROM THE SAME ARTIST*/
+#same-container {
+    width: 100%;
+    height: 30vh;
+}
+#same-container h1 {
+    font-size: 1.5em;
+    color: #fff;
+    margin-top: 2%;
+}
+.same {
+    background: violet;
+    display: flex;
+}
+
+/*formthesame*/
+.same .fromthesame {
+    width: 100%;
+    background-color: red;
+    display: block;
+}
+.same .fromthesame img {
+    width: 10%;
+    height: 20vh;
+
+}
+.same .fromthesame h2{
+    font-size: 1em;
+    color: #fff;
+}

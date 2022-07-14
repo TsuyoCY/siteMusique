@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="/src/discover/discover.css">
+
+    <!--Libraries-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"> <!--Font Awesome-->
+
+</head>
+<body>
+
+    <div class="application">
+         <!--NAVBAR-->
+         <nav>
+         <a href="#"><img src="/src/img/logo.png" alt="logo de la marque"></a>
+            <ul>
+                <li>Home</li>
+                <li>Discover</li>
+                <li>Collections</li>
+                <li>Créer une playlist</li>
+                <li>Favoris</li>
+                <a href="/src/discover/settings/settings.html"><li><i class="fa-solid fa-gear"></i></li></a>
+            </ul>
+        </nav>
+
+        
+    <!--CONTENT--->
+    <div id="menu-container">
+            <!--SEARCHBAR-->
+            <div class="searchbar-container">
+                <div class="searchbar">
+                    <input type="search" class="search" placeholder="Search">
+                </div>
+            </div>
+        <div class="container">
+
+            <div id="menu-play-pause">
+                <button class="play">Play</button>
+                <button class="pause"><i class="fa-solid fa-pause"></i></button>
+                <button class="favorites"><i class="fa-solid fa-heart"></i></button>
+            </div>
+
+            <div id="album-container"> <!--ALBUMS-->
+                <div class="album">
+                    <h1>N°1 STREAMING | 2 578 842 PER MONTH</h1>
+                    <h2>PNL</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ut voluptate laboriosam rem molestiae eos vel dicta optio, dolorum in?</p>
+                    <a href="#">More infos</a>
+                    <a href="#">Similar artists</a>
+                </div>
+            </div>
+
+            <div id="pochette-container"> <!--POCHETTES-->
+                <div class="pochette">
+                    <h1>Last album</h1>
+                    <img src="/src/img/pochette.jpg" alt="image de la pochette de l'album" class="logo-pochette">
+                    <h2>Deux frères</h2>
+                </div>
+            </div>
+        </div>
+
+        <div id="same-container">
+            <h1>From the same Artist</h1>
+            <div class="same">
+                <div class="fromthesame">
+                    <img src="/src/img/pochette.jpg" alt="pochette d'album">
+                    <h2>Dans la légende</h2>
+                </div>
+
+                <div class="fromthesame">
+                    <img src="/src/img/pochette.jpg" alt="pochette d'album">
+                    <h2>Le monde de Chico</h2>
+                </div>
+
+                <div class="fromthesame">
+                    <img src="/src/img/pochette.jpg" alt="pochette d'album">
+                    <h2>Que la Famille</h2>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+</body>
+</html>
